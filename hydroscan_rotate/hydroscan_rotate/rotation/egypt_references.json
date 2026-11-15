@@ -1,0 +1,57 @@
+{
+ "_readme": "Egyptian agricultural literature found for wheat, maize, faba bean and berseem. HOW THESE WERE READ: via web search, from abstracts / visible excerpts only, NOT full texts. Therefore every entry has verified_by_expert=false and must be checked by an agronomist before it is used to drive a recommendation. These are experimental results at named research stations, NOT official Ministry of Agriculture recommendations. 1 feddan = 0.42 ha = 4200 m2. Water numbers from different methods (applied irrigation experiments vs CROPWAT-modelled crop water use) are NOT comparable and are shown as ranges, never merged into one value.",
+ "sources": {
+  "R01": {"citation": "Ismail, M. et al. (2024). Wheat water requirements by planting date using CROPWAT-8. Menoufia J. Soil Sci. (ARC authors).", "url": "https://mjss.journals.ekb.eg/article_390074_6fb2c284fdb7a6f6511aef78b2db49de.pdf", "type": "peer-reviewed, modelled (CROPWAT-8)"},
+  "R02": {"citation": "Taha et al. (2017), as CITED inside R01 (secondary citation; original not read).", "url": "https://mjss.journals.ekb.eg/article_390074_6fb2c284fdb7a6f6511aef78b2db49de.pdf", "type": "secondary citation"},
+  "R03": {"citation": "Wheat sowing date x irrigation regimes, Shandaweel Agricultural Research Station, ARC, seasons 2012/13-2014/15. Assiut Univ./ARC journal (Egypt).", "url": "https://ajas.journals.ekb.eg/article_3869_d2760e5e2c9e3d8ee01907190314d2be.pdf", "type": "peer-reviewed field experiment"},
+  "R04": {"citation": "Kassab, M.M. (2010). Faba bean productivity as affected by number of irrigations in Nile Delta. J. Soil Sci. Agric. Eng., Mansoura Univ. 1(7): 643-651. Sakha station, 2008/09-2009/10.", "url": "https://journals.ekb.eg/article_75116_2a2992fcfb8ada56e562a070019ea873.pdf", "type": "peer-reviewed field experiment"},
+  "R05": {"citation": "El-Bably, A.Z. & Abo-Mostafa, R.A.I. (2008). Effect of irrigation on productivity and water use efficiency of faba bean cultivars in North Delta. J. Agric. Sci. Mansoura Univ. 33(1): 925-939. Sakha, 2005/06-2006/07.", "url": "https://journals.ekb.eg/article_166865_d023c04026a78e7fce0c15d1d0978b88.pdf", "type": "peer-reviewed field experiment"},
+  "R06": {"citation": "Fayed, T.B., Abdrabbo, M.A.A., Hamada, M.M.A., Hashem, F.A. & Hegab, A.S.A. (2018). Irrigation requirements of faba bean under two climatic locations in Egypt. Egypt. J. Agric. Res. 96(2). El-Bosaily (Behaira) & Dokki (Giza), drip irrigation.", "url": "https://ejar.journals.ekb.eg/article_135777_bec3388b226be0bae0be5819ded97e62.pdf", "type": "peer-reviewed field experiment (CLAC, ARC)"},
+  "R07": {"citation": "Hegab, A.S.A. & Fayed, M.T.B. Productivity and irrigation requirements of faba bean in North Delta in relation to planting dates. Annals of Agric. Sci. (Ain Shams). El-Bosaily, 2011/12-2012/13.", "url": "https://manuscript.isc.ac/Inventory/10/2542988.htm", "type": "peer-reviewed field experiment (abstract read)"},
+  "R08": {"citation": "Mohamed, M.Kh.A. & El-Sayed, A.F. Effect of sowing date on six faba bean genotypes and Orobanche crenata (broomrape). Food Legumes Res. Dept., FCRI, ARC. Sakha, 2015/16-2016/17.", "url": "https://alexja.journals.ekb.eg/article_28568_787bd2447fd7a68c0d58b348dd6c8f77.pdf", "type": "peer-reviewed field experiment"},
+  "R09": {"citation": "Sharief, A.E. Egyptian clover (berseem), Chapter 4. Faculty of Agriculture, Mansoura Univ. (lecture/teaching material hosted on Scribd).", "url": "https://www.scribd.com/document/1012321939/02", "type": "teaching material (NOT peer-reviewed; weakest evidence)"},
+  "R10": {"citation": "Ramadan et al. (1994), as CITED inside Bakheit, Teama, Mohamed & Fathy, 'Forage yield stability of some Egyptian clover genotypes under different sowing dates' (secondary citation).", "url": "https://journals.ekb.eg/article_4502_08ead2a5be02605d063292bb4047306c.pdf", "type": "secondary citation"},
+  "R11": {"citation": "Mady, A.A. & Meleha, M.I. Increasing water use efficiency of berseem as affected by methods of sowing and nitrogen. Egypt. J. Agron. El-Karada station, Kafr El-Sheikh, 2003/04-2004/05.", "url": "https://manuscript.isc.ac/Inventory/10/2620962.htm", "type": "peer-reviewed field experiment (abstract read)"},
+  "R12": {"citation": "Kassab, M.M., Darwesh, R.Kh. & Ibrahim, M.A.M. (2012). Response of Egyptian clover to cut-off irrigation on clay soils at North Nile Delta. Alexandria Sci. Exch. J. 33(3).", "url": "https://asejaiqjsae.journals.ekb.eg/article_3155_2b3150036a4506bc9a03c6040dda7cff.pdf", "type": "peer-reviewed field experiment"},
+  "R13": {"citation": "Maize sowing dates (15 May, 15 Jun, 15 Jul) x hybrids SC131, SC168, TWC324, Sakha Agricultural Research Farm, 2023-2024. Egyptian J. Botany (ejbo).", "url": "https://ejbo.journals.ekb.eg/article_431323_eb18351b1c7c0066f5edbfc44c76a117.pdf", "type": "peer-reviewed field experiment"},
+  "R14": {"citation": "Hegab, A., Fayed, M., Hamada, M. & Abdrabbo, M. (2019). Growth parameters, irrigation requirements and productivity of maize in relation to sowing dates under North-Delta of Egypt conditions. Arab Univ. J. Agric. Sci. 27(1). El-Bosaily, SC10, drip, 2015-2016.", "url": "https://doaj.org/article/ab259e90b2df41a7b69ef3b59ee766c3", "type": "peer-reviewed field experiment (abstract read)"},
+  "R15": {"citation": "Gharib, H.S. et al. (2016). Deficit irrigation of maize SC10. Egypt. J. Agron. 38(3). Preceding crop: Egyptian clover.", "url": "https://journals.ekb.eg/article_1297_c956e32ac96917d33a09a177fa5514fb.pdf", "type": "peer-reviewed field experiment"},
+  "R16": {"citation": "SC10 maize at 60/70/80% of ETc under El-Minia conditions, 2019-2020. Bull. Natl. Res. Cent. (Springer). Preceding crop: faba bean.", "url": "https://link.springer.com/10.1186/s42269-022-00934-6", "type": "peer-reviewed field experiment"}
+ },
+ "crops": {
+  "wheat": {
+   "planting_window": {"value": "15-30 November (northern Nile Delta)", "refs": ["R02"], "strength": "secondary citation only", "note": "Water need rose with later sowing in R01 (CROPWAT-8)."},
+   "water": [
+    {"value": "4230.0 to 6086.51 m3/feddan/season", "what": "CROPWAT-8 modelled requirement; lowest for sowing in the first week of November 2022, highest for the first week of January 2023", "refs": ["R01"], "kind": "modelled"},
+    {"value": "1606.19 to 2123.93 m3/feddan applied", "what": "applied irrigation, three irrigation regimes at the 5 December sowing date (a different, experimental regime; cultivar Shandaweel 1, Upper Egypt)", "refs": ["R03"], "kind": "experimental applied water"}
+   ],
+   "comparability_warning": "The two ranges differ by a factor of ~2-3 because they measure different things (modelled crop requirement vs deficit-irrigation treatments applied in a specific station/cultivar). No single 'wheat water requirement' is adopted."
+  },
+  "faba_bean": {
+   "planting_window": {"value": "about mid-October to mid-November; yield fell when sowing was delayed beyond 1 November in the North Delta", "refs": ["R06", "R07", "R08"], "strength": "field experiments, trade-off", "note": "Late sowing reduced broomrape (Orobanche) infestation at Sakha (R08) but early sowing gave the highest yield for Misr 3: a real trade-off needing local advice."},
+   "water": [
+    {"value": "609.41 (rainfed after planting irrigation) to 1601.46 m3/feddan applied (4 irrigations excl. planting)", "what": "seasonal applied water incl. rainfall, Sakha", "refs": ["R04"], "kind": "experimental applied water"},
+    {"value": "790 to 1982 m3/feddan applied", "what": "four irrigation treatments, Sakha; each extra cm of applied water added ~10.5 kg seed/feddan", "refs": ["R05"], "kind": "experimental applied water"}
+   ],
+   "other": "0.60 of the irrigation requirement gave the highest water-use efficiency under drip in the North Delta (R06, R07); this is an efficiency optimum, not a yield maximum."
+  },
+  "berseem": {
+   "planting_window": {"value": "1 to mid-October best; mid-September to end of October acceptable", "refs": ["R09", "R10"], "strength": "teaching material + secondary citation (weak)", "note": "Multi-cut cultivars give 3-4 cuts (R09)."},
+   "water": [
+    {"value": "2215.05 to 2615.01 m3/feddan applied (incl. 618.87 m3 rainfall) ", "what": "clay soils, North Delta, cut-off irrigation trial", "refs": ["R12"], "kind": "experimental applied water"},
+    {"value": "about 2766 to 3014 m3/feddan/season applied", "what": "two sowing methods, Kafr El-Sheikh (3013.94 = average of the wet-sowing method)", "refs": ["R11"], "kind": "experimental applied water"}
+   ]
+  },
+  "maize": {
+   "planting_window": {"value": "May (1-15 May gave the best results; later sowing reduced yield)", "refs": ["R13", "R14"], "strength": "two field experiments agree", "note": "Hot-summer sowing in July was worst for water-use efficiency (R14)."},
+   "water": [
+    {"value": "1834 / 2139 / 2445 m3/feddan applied at 60 / 70 / 80 % of ETc", "what": "SC10, El-Minia (Middle Egypt)", "refs": ["R16"], "kind": "experimental applied water"},
+    {"value": "6171 to 7321 m3/ha applied (= about 2592 to 3075 m3/feddan)", "what": "deficit-irrigation regimes, SC10", "refs": ["R15"], "kind": "experimental applied water"}
+   ]
+  }
+ },
+ "rotation_evidence": {
+  "found": "Only that SC10 maize was grown after Egyptian clover (R15) and after faba bean (R16) in these experiments. This shows the sequences are practised; it is NOT evidence of the size of any soil, nitrogen, water or income benefit.",
+  "gap": "No Egyptian source quantifying benefits of wheat -> faba bean -> maize or wheat -> berseem -> maize was found in this pass. Wheat, faba bean and berseem are ALL winter crops (sown Oct-Nov), so the three-stage sequences cannot fit one calendar year: the 2-year cycle length used in the project is an analyst assumption that an agronomist must define."
+ }
+}

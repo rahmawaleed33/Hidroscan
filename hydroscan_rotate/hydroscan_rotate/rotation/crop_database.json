@@ -1,0 +1,315 @@
+{
+ "_readme": "Qualitative values only. 'evidence' tells how each value is supported. Every quantitative field (yield, price, cost, water mm, calendars to the day) is null until sourced. verified_against_source=false means NO value has yet been checked against an Egyptian bulletin.",
+ "references": {
+  "FAO56": "Allen et al. (1998) FAO Irrigation and Drainage Paper 56 - Crop evapotranspiration (crop coefficients, season lengths; to consult for numeric water needs)",
+  "GAEZ": "FAO/IIASA Global Agro-Ecological Zones (GAEZ) crop suitability - not integrated yet",
+  "ARC": "Egypt Agricultural Research Center (ARC) / Ministry of Agriculture and Land Reclamation crop production bulletins - to consult for calendars, varieties, yields",
+  "FAOSTAT": "FAOSTAT crop statistics for Egypt - to consult for yields"
+ },
+ "crops": {
+  "wheat": {
+   "name_en": "Wheat",
+   "name_ar": "القمح",
+   "scientific_name": "Triticum aestivum",
+   "family": {
+    "value": "Poaceae",
+    "evidence": "general_agronomic_knowledge"
+   },
+   "season": {
+    "value": "winter",
+    "evidence": "general_agronomic_knowledge"
+   },
+   "growing_months": {
+    "value": [
+     11,
+     12,
+     1,
+     2,
+     3,
+     4
+    ],
+    "evidence": "general_agronomic_knowledge",
+    "note": "approximate; exact window depends on variety and governorate - verify with ARC calendar"
+   },
+   "water_demand_relative": {
+    "value": "medium",
+    "evidence": "analyst_assumption",
+    "note": "relative to the other candidate crops; NOT a measured requirement"
+   },
+   "nitrogen_fixation": {
+    "value": false,
+    "evidence": "general_agronomic_knowledge"
+   },
+   "soil_cover_relative": {
+    "value": "medium",
+    "evidence": "analyst_assumption"
+   },
+   "heat_sensitivity": {
+    "value": "medium",
+    "evidence": "analyst_assumption",
+    "note": "terminal-season heat can reduce grain filling (general knowledge)"
+   },
+   "root_type": {
+    "value": "fibrous",
+    "evidence": "general_agronomic_knowledge"
+   },
+   "fertilizer_note": {
+    "value": "Requires nitrogen fertiliser; amounts not stored (null)",
+    "evidence": "general_agronomic_knowledge"
+   },
+   "pest_disease_note": {
+    "value": "Cereal-on-cereal sequences can build up cereal-specific pathogens; a break crop helps",
+    "evidence": "general_agronomic_knowledge"
+   },
+   "yield": {
+    "value": null,
+    "evidence": null
+   },
+   "price": {
+    "value": null,
+    "evidence": null
+   },
+   "production_cost": {
+    "value": null,
+    "evidence": null
+   },
+   "regional_suitability": {
+    "value": null,
+    "evidence": null,
+    "note": "GAEZ not integrated"
+   },
+   "verified_against_source": false,
+   "source_refs": [
+    "ARC",
+    "FAO56"
+   ]
+  },
+  "maize": {
+   "name_en": "Maize",
+   "name_ar": "الذرة الشامية",
+   "scientific_name": "Zea mays",
+   "family": {
+    "value": "Poaceae",
+    "evidence": "general_agronomic_knowledge"
+   },
+   "season": {
+    "value": "summer",
+    "evidence": "general_agronomic_knowledge"
+   },
+   "growing_months": {
+    "value": [
+     5,
+     6,
+     7,
+     8,
+     9
+    ],
+    "evidence": "general_agronomic_knowledge",
+    "note": "approximate; verify with ARC calendar"
+   },
+   "water_demand_relative": {
+    "value": "high",
+    "evidence": "analyst_assumption",
+    "note": "generally among the more water-demanding summer crops in Egypt; NOT a measured requirement"
+   },
+   "nitrogen_fixation": {
+    "value": false,
+    "evidence": "general_agronomic_knowledge"
+   },
+   "soil_cover_relative": {
+    "value": "medium",
+    "evidence": "analyst_assumption"
+   },
+   "heat_sensitivity": {
+    "value": "medium",
+    "evidence": "analyst_assumption",
+    "note": "heat during flowering can reduce yield (general knowledge)"
+   },
+   "root_type": {
+    "value": "fibrous",
+    "evidence": "general_agronomic_knowledge"
+   },
+   "fertilizer_note": {
+    "value": "High nitrogen demand; amounts not stored (null)",
+    "evidence": "general_agronomic_knowledge"
+   },
+   "pest_disease_note": {
+    "value": "Follows a cereal in rotation A (same botanical family)",
+    "evidence": "general_agronomic_knowledge"
+   },
+   "yield": {
+    "value": null,
+    "evidence": null
+   },
+   "price": {
+    "value": null,
+    "evidence": null
+   },
+   "production_cost": {
+    "value": null,
+    "evidence": null
+   },
+   "regional_suitability": {
+    "value": null,
+    "evidence": null
+   },
+   "verified_against_source": false,
+   "source_refs": [
+    "ARC",
+    "FAO56"
+   ]
+  },
+  "faba_bean": {
+   "name_en": "Faba (fava) bean",
+   "name_ar": "الفول البلدي",
+   "scientific_name": "Vicia faba",
+   "family": {
+    "value": "Fabaceae",
+    "evidence": "general_agronomic_knowledge"
+   },
+   "season": {
+    "value": "winter",
+    "evidence": "general_agronomic_knowledge"
+   },
+   "growing_months": {
+    "value": [
+     11,
+     12,
+     1,
+     2,
+     3,
+     4
+    ],
+    "evidence": "general_agronomic_knowledge",
+    "note": "approximate; verify with ARC calendar"
+   },
+   "water_demand_relative": {
+    "value": "medium",
+    "evidence": "analyst_assumption"
+   },
+   "nitrogen_fixation": {
+    "value": true,
+    "evidence": "general_agronomic_knowledge",
+    "note": "symbiotic N fixation with rhizobia; amount to the next crop not stored (null)"
+   },
+   "soil_cover_relative": {
+    "value": "medium",
+    "evidence": "analyst_assumption"
+   },
+   "heat_sensitivity": {
+    "value": "high",
+    "evidence": "analyst_assumption",
+    "note": "flowering/pod set is heat-sensitive (general knowledge)"
+   },
+   "root_type": {
+    "value": "taproot",
+    "evidence": "general_agronomic_knowledge"
+   },
+   "fertilizer_note": {
+    "value": "Legume: can reduce nitrogen fertiliser need of the following crop; amount not stored",
+    "evidence": "general_agronomic_knowledge"
+   },
+   "pest_disease_note": {
+    "value": "Breaks cereal disease cycles",
+    "evidence": "general_agronomic_knowledge"
+   },
+   "yield": {
+    "value": null,
+    "evidence": null
+   },
+   "price": {
+    "value": null,
+    "evidence": null
+   },
+   "production_cost": {
+    "value": null,
+    "evidence": null
+   },
+   "regional_suitability": {
+    "value": null,
+    "evidence": null
+   },
+   "verified_against_source": false,
+   "source_refs": [
+    "ARC",
+    "FAO56"
+   ]
+  },
+  "berseem": {
+   "name_en": "Berseem clover",
+   "name_ar": "البرسيم المصري",
+   "scientific_name": "Trifolium alexandrinum",
+   "family": {
+    "value": "Fabaceae",
+    "evidence": "general_agronomic_knowledge"
+   },
+   "season": {
+    "value": "winter",
+    "evidence": "general_agronomic_knowledge"
+   },
+   "growing_months": {
+    "value": [
+     11,
+     12,
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "evidence": "general_agronomic_knowledge",
+    "note": "multi-cut forage; approximate; verify with ARC calendar"
+   },
+   "water_demand_relative": {
+    "value": "high",
+    "evidence": "analyst_assumption",
+    "note": "long season with repeated irrigation after cuts; NOT a measured requirement"
+   },
+   "nitrogen_fixation": {
+    "value": true,
+    "evidence": "general_agronomic_knowledge"
+   },
+   "soil_cover_relative": {
+    "value": "high",
+    "evidence": "analyst_assumption"
+   },
+   "heat_sensitivity": {
+    "value": "low",
+    "evidence": "analyst_assumption"
+   },
+   "root_type": {
+    "value": "taproot",
+    "evidence": "general_agronomic_knowledge"
+   },
+   "fertilizer_note": {
+    "value": "Legume forage; can reduce nitrogen need of the following crop; amount not stored",
+    "evidence": "general_agronomic_knowledge"
+   },
+   "pest_disease_note": {
+    "value": "Breaks cereal disease cycles",
+    "evidence": "general_agronomic_knowledge"
+   },
+   "yield": {
+    "value": null,
+    "evidence": null
+   },
+   "price": {
+    "value": null,
+    "evidence": null
+   },
+   "production_cost": {
+    "value": null,
+    "evidence": null
+   },
+   "regional_suitability": {
+    "value": null,
+    "evidence": null
+   },
+   "verified_against_source": false,
+   "source_refs": [
+    "ARC",
+    "FAO56"
+   ]
+  }
+ }
+}

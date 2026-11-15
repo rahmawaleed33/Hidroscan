@@ -1,0 +1,15 @@
+{"note": "ILLUSTRATIVE ONLY. Approximate hand-entered typical-year values for northern Egypt's desert fringe, written from general knowledge, NOT retrieved from any dataset. Errors of several degrees / mm are possible. Used only so the app stays functional offline; scoring treats it as low evidence.",
+ "units": {"T2M": "C", "PRECTOTCORR": "mm/day"},
+ "data": {"monthly": [
+  {"year": 0, "month": 1, "T2M": 12.5, "PRECTOTCORR": 0.20},
+  {"year": 0, "month": 2, "T2M": 14.0, "PRECTOTCORR": 0.14},
+  {"year": 0, "month": 3, "T2M": 17.0, "PRECTOTCORR": 0.10},
+  {"year": 0, "month": 4, "T2M": 21.0, "PRECTOTCORR": 0.03},
+  {"year": 0, "month": 5, "T2M": 24.5, "PRECTOTCORR": 0.02},
+  {"year": 0, "month": 6, "T2M": 27.0, "PRECTOTCORR": 0.0},
+  {"year": 0, "month": 7, "T2M": 28.0, "PRECTOTCORR": 0.0},
+  {"year": 0, "month": 8, "T2M": 28.0, "PRECTOTCORR": 0.0},
+  {"year": 0, "month": 9, "T2M": 26.0, "PRECTOTCORR": 0.0},
+  {"year": 0, "month": 10, "T2M": 23.0, "PRECTOTCORR": 0.06},
+  {"year": 0, "month": 11, "T2M": 18.0, "PRECTOTCORR": 0.13},
+  {"year": 0, "month": 12, "T2M": 14.0, "PRECTOTCORR": 0.20}]}}

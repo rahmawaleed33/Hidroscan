@@ -1,0 +1,74 @@
+{
+ "_readme": "Prototype weights and ordinal mappings: configurable, NOT scientifically validated.",
+ "weights": {
+  "water": {
+   "water": 0.4,
+   "soil": 0.2,
+   "income": 0.25,
+   "resilience": 0.15
+  },
+  "soil": {
+   "water": 0.15,
+   "soil": 0.45,
+   "income": 0.15,
+   "resilience": 0.25
+  },
+  "income": {
+   "water": 0.2,
+   "soil": 0.15,
+   "income": 0.5,
+   "resilience": 0.15
+  }
+ },
+ "water_points": {
+  "low": 85,
+  "medium": 60,
+  "high": 35
+ },
+ "water_limited_extra_penalty": {
+  "low": 0,
+  "medium": 5,
+  "high": 15
+ },
+ "soil": {
+  "base": 40,
+  "legume_bonus": 25,
+  "per_extra_family": 10,
+  "cover_bonus": {
+   "low": 0,
+   "medium": 5,
+   "high": 10
+  }
+ },
+ "resilience": {
+  "heat_points": {
+   "low": 80,
+   "medium": 60,
+   "high": 35
+  },
+  "diversity_bonus": 5
+ },
+ "status_thresholds": {
+  "green": 70,
+  "yellow": 50,
+  "note": "prototype display thresholds on a 0-100 score"
+ },
+ "scenario": {
+  "heat_pts_per_degC": {
+   "low": 2,
+   "medium": 4,
+   "high": 6
+  },
+  "water_pts_per_pct_demand": {
+   "low": 0.2,
+   "medium": 0.35,
+   "high": 0.5
+  },
+  "rain_loss_pts_per_10mm": {
+   "low": 0.2,
+   "medium": 0.5,
+   "high": 1.0
+  },
+  "hargreaves_offset_c": 17.8
+ }
+}

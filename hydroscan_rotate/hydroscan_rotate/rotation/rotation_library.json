@@ -1,0 +1,37 @@
+{
+ "_readme": "Candidate sequences, not recommendations. cycle_years is an ANALYST ASSUMPTION: the brief lists B and C as 3-stage sequences that contain two winter crops, so they cannot fit one calendar year; 2 years is assumed and is editable.",
+ "rotations": [
+  {
+   "id": "A",
+   "name_en": "Baseline: wheat -> maize",
+   "name_ar": "الدورة الحالية: قمح ← ذرة",
+   "stages": [
+    "wheat",
+    "maize"
+   ],
+   "cycle_years": 1
+  },
+  {
+   "id": "B",
+   "name_en": "Legume: wheat -> faba bean -> maize",
+   "name_ar": "دورة بالبقوليات: قمح ← فول ← ذرة",
+   "stages": [
+    "wheat",
+    "faba_bean",
+    "maize"
+   ],
+   "cycle_years": 2
+  },
+  {
+   "id": "C",
+   "name_en": "Fodder: wheat -> berseem -> maize",
+   "name_ar": "دورة بالبرسيم: قمح ← برسيم ← ذرة",
+   "stages": [
+    "wheat",
+    "berseem",
+    "maize"
+   ],
+   "cycle_years": 2
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+{
+  "run_at": "2026-11-14T18:42:58",
+  "gee_project_set": false,
+  "results": [
+    {
+      "site": {
+        "name": "Sakha",
+        "lat": 31.117,
+        "lon": 30.95
+      },
+      "checks": [
+        {
+          "source": "NASA POWER daily",
+          "result": "FAIL",
+          "seconds": 0.1,
+          "reason": "ConnectionError: HTTPSConnectionPool(host='power.larc.nasa.gov', port=443): Max retries exceeded with url: /api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CT2M_MIN%2CPRECTOT"
+        },
+        {
+          "source": "ISRIC SoilGrids (WCS -> GEE -> REST)",
+          "result": "FAIL",
+          "seconds": 0.0,
+          "reason": "WCS failed: WCS sand 0-5cm: ConnectionError: HTTPSConnectionPool(host='maps.isric.org', port=443): Max retries exceeded with url: /mapserv?map=%2Fmap%2Fsand.map&SERVICE=WCS&VERSION=2.0.1&REQUEST=GetCoverag | REST failed: REST: ConnectionError: HTTPSConnectionPool(host='rest.isric.org', port=443): Max retries exceeded with url: /soilgrids/v2.0/properties/query?lon=30.95&lat=31.117&value=mean&property=s"
+        },
+        {
+          "source": "Sentinel-2 NDVI via GEE",
+          "result": "SKIPPED",
+          "reason": "HYDROSCAN_GEE_PROJECT is not set (see SETUP_GUIDE.md)"
+        },
+        {
+          "source": "GPM IMERG via GEE",
+          "result": "SKIPPED",
+          "reason": "HYDROSCAN_GEE_PROJECT is not set (see SETUP_GUIDE.md)"
+        },
+        {
+          "source": "SMAP via GEE",
+          "result": "SKIPPED",
+          "reason": "HYDROSCAN_GEE_PROJECT is not set (see SETUP_GUIDE.md)"
+        }
+      ]
+    }
+  ]
+}

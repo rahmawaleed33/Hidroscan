@@ -1,0 +1,15 @@
+# optional: rasterio, earthengine-api (GPM + multi-year NDVI), gTTS (Arabic audio, needs internet), arabic-reshaper NOT needed (matplotlib>=3.11 shapes Arabic)
+earthengine-api
+flask
+folium
+joblib
+matplotlib
+numpy
+pandas
+reportlab
+requests
+scikit-learn
+scipy
+streamlit
+streamlit-folium
+tifffile
